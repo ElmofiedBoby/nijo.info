@@ -1,2 +1,5 @@
 node_modules
 .DS_Store
+.travs.yml
+package-lock.json
+package.json
