@@ -1,14 +1,42 @@
-.jumbotron{
-    height:30vh;
-    margin:30px 30px 30px 30px;
-    border-radius:10px;
-      background: 
-  linear-gradient(
-    rgba(146, 0, 0, 0.25), 
-    rgba(133, 71, 0, 0.45)
-  ),
-  url(images/bg.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  color:white !important;
-  }
+.carousel,
+.item,
+.active {
+    height: 100%;
+    margin-bottom: 60px;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.gradienttopdown {
+  background-image: linear-gradient(rgb(33, 37, 41, 1), rgb(0, 0, 0, 0));
+}
+
+.gradientdowntop {
+  background-image: linear-gradient(rgb(0, 0, 0, 0), rgb(33, 37, 41, 1));
+}
+
+.copyright {
+  padding-left: 2%;
+}
+
+img {
+  object-fit: cover;
+}
+
+.noPadding {
+  padding: 0px;
+}
