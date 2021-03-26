@@ -43,7 +43,7 @@ img {
 .centerMain {
   position:absolute;
   top: 30%;
-  left: 35%;
+  left: 30%;
   transform: translate(-50%, -50%);
   z-index: 100;
   background-color:rgb(0, 0, 0, 0.4)
