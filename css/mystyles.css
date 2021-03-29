@@ -22,6 +22,7 @@
 
 .gradienttopdown {
   background-image: linear-gradient(rgb(33, 37, 41, 1), rgb(0, 0, 0, 0));
+  z-index: 50;
 }
 
 .gradientdowntop {
@@ -58,4 +59,27 @@ img {
     z-index: 100;
     background-color:rgb(0, 0, 0, 0.4)
   }
+  .aboutpfp {
+    position:absolute;
+    top: 20%;
+    left: 35%;
+  }
+  .abouttext {
+    position:absolute;
+    top: 35%;
+    left: 40%;
+  }
+}
+
+.aboutpfp {
+  position:absolute;
+  top: 20%;
+  left: 10%;
+}
+
+.abouttext {
+  position:absolute;
+  top: 25%;
+  left: 40%;
+  padding-right: 100px;
 }
